@@ -1,4 +1,16 @@
-
+local exploit = getexecutorname or identifyexecutor
+local support = {
+    ["Fluxus"] = true,
+    ["Trigon"] = true,
+    ["Codex"] = true,
+    ["Delta"] = true,
+    ["Vega X"] = true,
+    ["Hydrogen"] = true,
+    ["alysse"] = false,
+    ["ArceusX"] = true,
+    ["Electron"] = True,
+    ["wave"] = True,
+}
 
 if support[exploit()]  then
     print("Correct Executor Let's Run uwu")
